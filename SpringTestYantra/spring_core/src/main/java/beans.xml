@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <!-- <context:component-scan base-package="com.tyss.springcore.dto"/> -->
+    
+    <!-- <bean id="helloWorld" class="com.tyss.springcore.dto.HelloWorld" autowire="byType">
+       <property name="msg" value="Helloworld Example"></property>
+    </bean>
+    <bean id="factoryPostProcessor" class="com.tyss.springcore.dto.FactoryPostProcessor"/>
+    <bean id="postProcessor" class="com.tyss.springcore.dto.PostProcessor"/>
+    <bean id="dog" class="com.tyss.springcore.dto.Dog" init-method="init" destroy-method="destroy"/> -->
+ 
+      
+    <!-- <bean id="emp" class="com.tyss.springcore.dto.Employee">
+      <property name="name" value="Pravin Kumar"></property>
+      <property name="address" value="BTM"></property>
+      <property name="phno" value="8055290506"></property>
+    </bean>  
+    
+    <bean id="autor" class="com.tyss.springcore.dto.Author" autowire="constructor">
+      <constructor-arg name="name" value="Pravin Kumar"></constructor-arg>
+      <property name="name" value="Pravin Kumar"></property>
+      <property name="write" ref="pen"></property>
+    </bean>  
+    
+    <bean id="pen" class="com.tyss.springcore.dto.Pen"></bean>
+    <bean id="pencil" class="com.tyss.springcore.dto.Pencil"></bean> -->
+  </beans>
